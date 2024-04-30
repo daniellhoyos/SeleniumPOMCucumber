@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:/AcidLabs/Latam/TestAutomationRepository/mtx-automation-functional/src/test/java/features",
+        features = "C:/Documentos/advantageonlineshopping/src/test/java/features",
         glue = {"steps"},
         plugin = {"pretty",
                 "html:target/cucumber",
